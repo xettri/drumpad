@@ -1,0 +1,85 @@
+.background-pic{
+	background: linear-gradient(to top, #e0f018, #c6ef21, #aaed2d, #8cea3a, #6be747) no-repeat center center fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	position: fixed;
+}
+.head-title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 4px;
+	color: white;
+	background: linear-gradient(to top, #020a23, #001e56, #002d8d, #003ac6, #0443ff) no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: white;
+	-webkit-text-stroke-width: 2.00px; 
+}
+.btn{
+	border-radius: 0;
+}
+.square {
+	float:left;
+	position: relative;
+	width: 30%;
+	padding-bottom: 30%;
+	margin:1%;
+	padding-left: 0;
+	border: 6px solid #ffffff;
+}
+
+.content {
+	position:absolute;
+	height:100%;
+	width:100%; 
+	padding: 0; 
+	margin-left:-50%;
+	background-image: linear-gradient(to bottom, #fcff00, #ffe600, #ffce00, #ffb600, #ff9e00);
+	border: 0;
+}
+.player-head-title{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	text-align: center;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#player-input{
+	text-align: center;
+}
+.player-margin{
+	margin-top: 16%;
+}
+.game-margin{
+	margin-top: 100px;
+}
+@media(max-width: 768px){
+	.player-margin{
+		margin-top: 50%;
+	}
+	.game-margin{
+		margin-top: 30%;
+	}
+}
